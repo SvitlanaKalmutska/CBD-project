@@ -10,6 +10,16 @@
   }
 }
 
+@media (max-width: 1900px) {
+  .container .gallary-slider .slick-arrow {
+    border: none;
+  }
+
+  .container .gallary-slider__slogan {
+    bottom: 228px;
+  }
+}
+
 @media (max-width: 1850px) {
   .container .intro .home-page__inner {
     margin-right: 320px;
@@ -19,12 +29,25 @@
   .about .about__inner {
     padding-left: 435px;
   }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 730px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 710px;
+  }
 }
 
 @media (max-width: 1800px) {
   .accordion .accordion__inner {
     padding-left: 300px;
     padding-right: 300px;
+  }
+
+  .container .gallary-slider__signature::before {
+    width: 33px;
+    left: 38%;
   }
 }
 
@@ -51,6 +74,24 @@
   .about .about__questions-titles:hover::after,
   .about .about__questions-titles:active::after {
     width: 100%;
+  }
+
+  .container .gallary-slider__inner {
+    margin: 0 469px;
+    padding-top: 230px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 650px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 630px;
+  }
+
+  .container .footer__logo::before,
+  .container .footer__logo::after {
+    width: 280px;
   }
 }
 
@@ -92,6 +133,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .about .about__inner {
     padding-left: 200px;
     margin-bottom: 0;
@@ -116,6 +158,46 @@
   .about .about__questions-titles:hover::after,
   .about .about__questions-titles:active::after {
     width: 100%;
+  }
+
+  .container .gallary-slider__inner {
+    margin: 0 380px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 555px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 535px;
+  }
+
+  .container .footer__inner {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container .gallary-slider__inner {
+    margin: 0 313px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 495px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 475px;
+  }
+
+  .container .gallary-slider {
+    margin-bottom: 130px;
+  }
+
+  .container .footer__inner {
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
@@ -146,6 +228,7 @@
     margin-right: 110px;
     margin-top: 144px;
   }
+
   .container .intro .home-page__title {
     margin-bottom: 24px;
   }
@@ -165,6 +248,7 @@
     top: 27px;
     right: 27px;
   }
+
   .container .intro .home-page__link::after {
     right: 10px;
     top: 9px;
@@ -200,6 +284,28 @@
 
   .about .about__answers {
     padding-right: 85px;
+  }
+
+  .container .shop .slider__item-btn {
+    padding: 23px 55px 24px 29px;
+  }
+
+  .container .shop .slider__item-btn::after {
+    display: none;
+  }
+}
+
+@media (max-width: 1165px) {
+  .container .gallary-slider__inner {
+    margin: 0 258px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 420px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 400px;
   }
 }
 
@@ -300,6 +406,51 @@
   .about .about__answers-text {
     padding-right: 100px;
   }
+
+  .container .accordion {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .accordion .accordion__inner {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .container .accordion__btn {
+    font-size: 16px;
+    line-height: 3.5;
+    letter-spacing: 4px;
+  }
+
+  .container .footer__inner {
+    margin-left: 145px;
+    margin-right: 145px;
+  }
+
+  .container .footer__logo::before,
+  .container .footer__logo::after {
+    top: 23px;
+    width: 240px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container .accordion__inner::after {
+    width: 69%;
+  }
+
+  .container .gallary-slider__inner {
+    margin: 0 145px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 380px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 350px;
+  }
 }
 
 @media (max-width: 940px) {
@@ -324,6 +475,102 @@
 
   .about .about__questions::after {
     width: 110%;
+  }
+
+  .about .about__inner {
+    margin-bottom: 50px;
+    width: auto;
+  }
+
+  .container .shop__title {
+    margin-bottom: 50px;
+  }
+
+  .container .shop .slider__item {
+    height: 440px;
+    min-height: 10px;
+    padding-top: 26px;
+  }
+
+  .container .shop .slider__item-order {
+    height: 60px;
+    margin-top: -51px;
+  }
+
+  .container .shop .slider__item-btn {
+    padding: 17px 55px 21px 29px;
+  }
+
+  .container .accordion__inner::after {
+    width: 66%;
+  }
+
+  .container .gallary-slider__item {
+    background-position: center;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 330px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 300px;
+  }
+
+  .container .footer__inner {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 830px) {
+  .container .accordion__inner::after {
+    width: 61%;
+  }
+
+  .container .gallary-slider__inner {
+    margin: 0px 98px;
+  }
+
+  .container .gallary-slider__slogan {
+    bottom: 150px;
+    left: 30px;
+    font-size: 20px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-prev {
+    left: 280px;
+  }
+
+  .container .gallary-slider .slick-arrow.slick-next {
+    right: 250px;
+  }
+
+  .container .footer__logo::before,
+  .container .footer__logo::after {
+    width: 185px;
+  }
+
+  .container .footer__flex-inner {
+    display: block;
+  }
+
+  .container .footer__logo {
+    padding-bottom: 39px;
+  }
+
+  .container .footer__list-item {
+    padding: 10px 0;
+  }
+
+  .container .footer__sosial {
+    position: unset;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .container .footer__facebook {
+    margin-left: 0;
   }
 }
 
@@ -371,6 +618,12 @@
     transform: scale(0);
   }
 
+  .container .intro .header__inner .menu__list-item:hover::after,
+  .container .intro .header__inner .menu__list-item:active::after {
+    width: 100%;
+    left: -9%;
+  }
+
   .container .intro .header__inner .logo {
     padding-left: 123px;
   }
@@ -382,6 +635,7 @@
   .container .intro .header__inner .user-nav__link span {
     display: none;
   }
+
   .container .intro .header__inner .user-nav__link:first-child {
     padding-right: 10px;
   }
@@ -446,6 +700,23 @@
   .about .about__frame {
     width: 65%;
   }
+
+  .container .shop .slider {
+    margin-bottom: 30px;
+  }
+
+  .accordion .accordion__inner {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .container .accordion__inner::after {
+    width: 82%;
+  }
+
+  .container .gallary-slider {
+    display: none;
+  }
 }
 
 @media (max-width: 680px) {
@@ -461,6 +732,7 @@
   .about .about__questions-titles {
     padding-bottom: 20px;
   }
+
   .about .about__questions::after {
     display: none;
   }
@@ -473,6 +745,51 @@
   .about .about__questions-titles:hover,
   .about .about__questions-titles:active {
     font-weight: 600;
+  }
+
+  .accordion .accordion__inner {
+    padding-left: 60px;
+  }
+
+  .container .gallary-slider__inner {
+    margin: 0px 50px;
+  }
+
+  .container .gallary-slider__slogan {
+    bottom: 175px;
+    font-size: 20px;
+    left: 25px;
+  }
+
+  .container .footer__inner {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .container .footer__logo::before,
+  .container .footer__logo::after {
+    width: 100%;
+    top: -30px;
+  }
+
+  .container .footer__form-input {
+    width: 67%;
+    padding-right: 80px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    border-right: 2px solid #ced6af;
+  }
+
+  .container .footer__form-btn {
+    width: 80%;
+  }
+
+  .container .footer__form-search {
+    margin-bottom: 38px;
+  }
+
+  .container .footer__copyrights {
+    padding-bottom: 20px;
   }
 }
 
@@ -521,5 +838,39 @@
   .about .about__questions-titles:hover,
   .about .about__questions-titles:active {
     font-weight: 600;
+  }
+
+  .container .accordion__btn {
+    font-size: 15px;
+    line-height: 3;
+    letter-spacing: 3px;
+    padding: 15px;
+    padding-left: 35px;
+    border-top: none;
+  }
+
+  .accordion .accordion__inner {
+    padding-left: 33px;
+    padding-right: 53px;
+  }
+
+  .container .accordion__title {
+    margin-bottom: 35px;
+  }
+
+  .container .accordion {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  .container .accordion__inner::after {
+    width: 0%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container .footer__form-input {
+    width: 69%;
+    padding-left: 15px;
   }
 }
