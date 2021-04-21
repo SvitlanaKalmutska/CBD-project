@@ -250,7 +250,7 @@
     &__inner {
       max-width: 1370px;
       padding-left: 475px;
-      margin-bottom: 150px;
+      margin-bottom: 100px;
     }
 
     &__questions {
@@ -329,6 +329,7 @@
     &__title {
       text-align: center;
       margin-bottom: 80px;
+      @include adaptiv-font(30, 20);
     }
 
     .slider {
@@ -348,6 +349,8 @@
 
         &-title {
           padding-top: 20px;
+          @include adaptiv-font(24, 16);
+          text-transform: uppercase;
         }
 
         &-photo {
@@ -376,13 +379,13 @@
           padding-left: 30px;
           color: #1c1c1b;
           letter-spacing: 2.7px;
-          font-size: 18px;
+          @include adaptiv-font(18, 14);
         }
 
         &-btn {
           font-family: "Oswald", sans-serif;
           color: #ffffff;
-          font-size: 20px;
+          @include adaptiv-font(20, 14);
           padding: 23px 105px 24px 42px;
           background-color: #6e774a;
           text-transform: uppercase;
@@ -460,6 +463,7 @@
     &__title {
       text-align: center;
       margin-bottom: 45px;
+      @include adaptiv-font(30, 20);
     }
 
     &__btn {
@@ -606,7 +610,7 @@
     &__logo {
       padding-bottom: 62px;
       color: #6e774a;
-      font-size: 60px;
+      @include adaptiv-font(60, 40);
       font-weight: 400;
       line-height: 0.92;
       text-align: center;

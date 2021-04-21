@@ -3,6 +3,20 @@ $(function () {
     arrows: true,
     slidesToShow: 3,
     appendArrows: $(`.shop__arrows`),
+    responsive: [
+      {
+        breakpoint: 940,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 636,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
     nextArrow:
       '<button class="slick-arrow slick-next"><img src="images/right-green.png" alt="next arrow" /></button>',
     prevArrow:
