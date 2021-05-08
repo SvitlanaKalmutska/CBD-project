@@ -66,12 +66,6 @@ body a {
   list-style: none;
 }
 
-.container .intro {
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-}
-
 .container .intro .header {
   height: 79px;
   border-bottom: 1.6px solid rgba(255, 255, 255, 0.7);
@@ -101,7 +95,7 @@ body a {
 .container .intro .header__inner .menu__btn span {
   height: 2px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #6e774a;
   position: absolute;
   left: 10px;
   top: 16px;
@@ -114,7 +108,7 @@ body a {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #ffffff;
+  background-color: #6e774a;
   left: 10px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
